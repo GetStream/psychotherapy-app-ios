@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80C678B2252FF20700F78BFC /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C678B1252FF20700F78BFC /* JoinViewController.swift */; };
+		80C678B6252FF24300F78BFC /* JoinViewController+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C678B5252FF24300F78BFC /* JoinViewController+Views.swift */; };
+		80C678B9252FF26800F78BFC /* JoinViewController+Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C678B8252FF26800F78BFC /* JoinViewController+Handlers.swift */; };
+		80C678BC252FF29A00F78BFC /* JoinViewController+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C678BB252FF29A00F78BFC /* JoinViewController+Constraints.swift */; };
+		80C678BF252FF2FD00F78BFC /* TherapyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C678BE252FF2FD00F78BFC /* TherapyViewController.swift */; };
+		80C678C2252FF32F00F78BFC /* TherapyViewController+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C678C1252FF32F00F78BFC /* TherapyViewController+Views.swift */; };
+		80C678C5252FF35600F78BFC /* TherapyViewController+Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C678C4252FF35600F78BFC /* TherapyViewController+Handlers.swift */; };
+		80C678C8252FF38400F78BFC /* TherapyViewController+Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C678C7252FF38400F78BFC /* TherapyViewController+Call.swift */; };
+		80C678CB252FF3BA00F78BFC /* TherapyViewController+Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C678CA252FF3B900F78BFC /* TherapyViewController+Chat.swift */; };
+		80FD4DD8252F89AD007479C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD4DD7252F89AD007479C3 /* AppDelegate.swift */; };
+		80FD4DDA252F89AD007479C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD4DD9252F89AD007479C3 /* SceneDelegate.swift */; };
+		80FD4DDC252F89AD007479C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD4DDB252F89AD007479C3 /* ViewController.swift */; };
+		80FD4DDF252F89AD007479C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FD4DDD252F89AD007479C3 /* Main.storyboard */; };
+		80FD4DE1252F89AF007479C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FD4DE0252F89AF007479C3 /* Assets.xcassets */; };
+		80FD4DE4252F89AF007479C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FD4DE2252F89AF007479C3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80C678B1252FF20700F78BFC /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		80C678B5252FF24300F78BFC /* JoinViewController+Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JoinViewController+Views.swift"; sourceTree = "<group>"; };
+		80C678B8252FF26800F78BFC /* JoinViewController+Handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JoinViewController+Handlers.swift"; sourceTree = "<group>"; };
+		80C678BB252FF29A00F78BFC /* JoinViewController+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JoinViewController+Constraints.swift"; sourceTree = "<group>"; };
+		80C678BE252FF2FD00F78BFC /* TherapyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyViewController.swift; sourceTree = "<group>"; };
+		80C678C1252FF32F00F78BFC /* TherapyViewController+Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TherapyViewController+Views.swift"; sourceTree = "<group>"; };
+		80C678C4252FF35600F78BFC /* TherapyViewController+Handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TherapyViewController+Handlers.swift"; sourceTree = "<group>"; };
+		80C678C7252FF38400F78BFC /* TherapyViewController+Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TherapyViewController+Call.swift"; sourceTree = "<group>"; };
+		80C678CA252FF3B900F78BFC /* TherapyViewController+Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TherapyViewController+Chat.swift"; sourceTree = "<group>"; };
+		80FD4DD4252F89AD007479C3 /* PsychotherapyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PsychotherapyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FD4DD7252F89AD007479C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80FD4DD9252F89AD007479C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80FD4DDB252F89AD007479C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80FD4DDE252F89AD007479C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80FD4DE0252F89AF007479C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80FD4DE3252F89AF007479C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80FD4DE5252F89AF007479C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FD4DD1252F89AD007479C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655C80CC6F3A90A0DF8C6B2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		80C678AF252FF1A900F78BFC /* Therapy */ = {
+			isa = PBXGroup;
+			children = (
+				80C678BE252FF2FD00F78BFC /* TherapyViewController.swift */,
+				80C678C1252FF32F00F78BFC /* TherapyViewController+Views.swift */,
+				80C678C4252FF35600F78BFC /* TherapyViewController+Handlers.swift */,
+				80C678C7252FF38400F78BFC /* TherapyViewController+Call.swift */,
+				80C678CA252FF3B900F78BFC /* TherapyViewController+Chat.swift */,
+			);
+			path = Therapy;
+			sourceTree = "<group>";
+		};
+		80C678B0252FF1BB00F78BFC /* Join */ = {
+			isa = PBXGroup;
+			children = (
+				80C678B1252FF20700F78BFC /* JoinViewController.swift */,
+				80C678B5252FF24300F78BFC /* JoinViewController+Views.swift */,
+				80C678BB252FF29A00F78BFC /* JoinViewController+Constraints.swift */,
+				80C678B8252FF26800F78BFC /* JoinViewController+Handlers.swift */,
+			);
+			path = Join;
+			sourceTree = "<group>";
+		};
+		80FD4DCB252F89AD007479C3 = {
+			isa = PBXGroup;
+			children = (
+				80FD4DD6252F89AD007479C3 /* PsychotherapyApp */,
+				80FD4DD5252F89AD007479C3 /* Products */,
+				655C80CC6F3A90A0DF8C6B2B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		80FD4DD5252F89AD007479C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FD4DD4252F89AD007479C3 /* PsychotherapyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80FD4DD6252F89AD007479C3 /* PsychotherapyApp */ = {
+			isa = PBXGroup;
+			children = (
+				80C678B0252FF1BB00F78BFC /* Join */,
+				80C678AF252FF1A900F78BFC /* Therapy */,
+				80FD4DD7252F89AD007479C3 /* AppDelegate.swift */,
+				80FD4DD9252F89AD007479C3 /* SceneDelegate.swift */,
+				80FD4DDB252F89AD007479C3 /* ViewController.swift */,
+				80FD4DDD252F89AD007479C3 /* Main.storyboard */,
+				80FD4DE0252F89AF007479C3 /* Assets.xcassets */,
+				80FD4DE2252F89AF007479C3 /* LaunchScreen.storyboard */,
+				80FD4DE5252F89AF007479C3 /* Info.plist */,
+			);
+			path = PsychotherapyApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80FD4DD3252F89AD007479C3 /* PsychotherapyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FD4DE8252F89AF007479C3 /* Build configuration list for PBXNativeTarget "PsychotherapyApp" */;
+			buildPhases = (
+				80FD4DD0252F89AD007479C3 /* Sources */,
+				80FD4DD1252F89AD007479C3 /* Frameworks */,
+				80FD4DD2252F89AD007479C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PsychotherapyApp;
+			productName = PsychotherapyApp;
+			productReference = 80FD4DD4252F89AD007479C3 /* PsychotherapyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80FD4DCC252F89AD007479C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					80FD4DD3252F89AD007479C3 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 80FD4DCF252F89AD007479C3 /* Build configuration list for PBXProject "PsychotherapyApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80FD4DCB252F89AD007479C3;
+			productRefGroup = 80FD4DD5252F89AD007479C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80FD4DD3252F89AD007479C3 /* PsychotherapyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80FD4DD2252F89AD007479C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FD4DE4252F89AF007479C3 /* LaunchScreen.storyboard in Resources */,
+				80FD4DE1252F89AF007479C3 /* Assets.xcassets in Resources */,
+				80FD4DDF252F89AD007479C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FD4DD0252F89AD007479C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C678C2252FF32F00F78BFC /* TherapyViewController+Views.swift in Sources */,
+				80C678C8252FF38400F78BFC /* TherapyViewController+Call.swift in Sources */,
+				80C678C5252FF35600F78BFC /* TherapyViewController+Handlers.swift in Sources */,
+				80FD4DDC252F89AD007479C3 /* ViewController.swift in Sources */,
+				80C678CB252FF3BA00F78BFC /* TherapyViewController+Chat.swift in Sources */,
+				80C678B9252FF26800F78BFC /* JoinViewController+Handlers.swift in Sources */,
+				80C678BF252FF2FD00F78BFC /* TherapyViewController.swift in Sources */,
+				80C678B6252FF24300F78BFC /* JoinViewController+Views.swift in Sources */,
+				80C678BC252FF29A00F78BFC /* JoinViewController+Constraints.swift in Sources */,
+				80FD4DD8252F89AD007479C3 /* AppDelegate.swift in Sources */,
+				80C678B2252FF20700F78BFC /* JoinViewController.swift in Sources */,
+				80FD4DDA252F89AD007479C3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80FD4DDD252F89AD007479C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FD4DDE252F89AD007479C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80FD4DE2252F89AF007479C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FD4DE3252F89AF007479C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80FD4DE6252F89AF007479C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80FD4DE7252F89AF007479C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80FD4DE9252F89AF007479C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				INFOPLIST_FILE = PsychotherapyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.PsychotherapyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80FD4DEA252F89AF007479C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				INFOPLIST_FILE = PsychotherapyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.PsychotherapyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80FD4DCF252F89AD007479C3 /* Build configuration list for PBXProject "PsychotherapyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FD4DE6252F89AF007479C3 /* Debug */,
+				80FD4DE7252F89AF007479C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FD4DE8252F89AF007479C3 /* Build configuration list for PBXNativeTarget "PsychotherapyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FD4DE9252F89AF007479C3 /* Debug */,
+				80FD4DEA252F89AF007479C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80FD4DCC252F89AD007479C3 /* Project object */;
+}
